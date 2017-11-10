@@ -1,0 +1,116 @@
+body {
+
+	background-color: FF9110;
+	text-align: center;
+	height: 80%;
+} 	
+
+#flex-container{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	
+	flex-wrap: wrap;
+	justify-content: space-around;	
+	background-color: #BF6D0C;
+}
+
+a{
+	text-decoration: none;
+}
+.under{
+	font-size: 300%;
+	border-style: dotted;	
+    border-color: 7F5A2E;
+}
+
+#over{
+	font-size: 450%;
+	border-style: solid;
+    border-color: 7F5A2E;
+}	
+#flex-lodor{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;	
+	}
+
+#erbjudande1{
+	font-size: 250%;
+	width: 553px;
+	height:360px;
+	border-style: solid;
+	border-radius: 10%;
+	background-image: url("hamburgare.jpg");
+
+	text-align: center;
+	vertical-align: middle;
+	line-height: 650px ; 
+
+	display: table-cell;
+  	vertical-align: bottom;
+
+}
+
+
+#erbjudande2{
+	font-size: 250%;
+	width: 553px;
+	height:360px;
+	border-style: solid;
+	border-radius: 10%;
+	background-image: url("dricka.jpg");
+
+	text-align: center;
+	vertical-align: middle;
+	line-height: 650px ; 
+
+	display: table-cell;
+  	vertical-align: bottom;
+  	
+}
+
+
+footer{
+	text-align: center;
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: 400%;
+
+}
+#bild{
+	height: 78%;
+	width: 47%;
+	border-style: solid;
+	border-radius: 25%;
+}
+@media screen and (max-width:700px) {
+#over{
+	font-size: 250%;
+	}
+ 
+ .under{
+	font-size: 150%;
+	}
+	#bild{
+	height: 58%;
+	width: 55%;
+	}
+	#erbjudande1{
+	background-image: url("hamburgaremini.jpg");
+	width: 300px;
+	height:201px;
+	font-size: 175%;
+	line-height: 350px ;
+	}
+	#erbjudande2{
+	background-image: url("drickamini.jpg");
+	width: 300px;
+	height:201px;
+	font-size: 175%;
+	line-height: 350px ;
+	}
+	footer{
+	font-size: 200%;
+	}
+}
